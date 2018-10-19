@@ -1,0 +1,117 @@
+.body1{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    flex-flow: row wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.nav-link {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 5%;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    left: 50%;
+    bottom: 95%;
+}
+/* .nav-link-login{
+    padding: 0 60px;
+    border: 2px solid white;
+    
+}
+.nav-link-signup{
+    padding: 0 60px;
+    border: 2px solid white;
+    border-radius: 25px;
+} */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    position: fixed;
+    left: 20%;
+    top: 15%;
+}
+.discussion{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 450px;
+}
+.discussion-box{
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 15px;
+}
+.discussion-box2{
+    margin-right: 39%;
+}
+.user-action{
+    width: 200px;
+    height: 80px;
+    background-color:rgb(238, 0, 118);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 1px solid rgb(188, 0, 68);
+    font-size: 20px;
+    
+}
+
+.user-action1{
+    background: transparent;
+    text-align: center;
+    font-size: 20px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    color: white;
+} 
+
+.user-action2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border: 1px solid white;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 25px;
+    color: white;
+    
+}
+.logo{
+    position: fixed;
+    right: 95%;
+    top: 3%;
+    left: 5%;
+    bottom: 95%;
+}
+@media screen and (max-width: 480px) {
+
+    .nav-link {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 25%;
+    }
+}
